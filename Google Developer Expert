@@ -3,6 +3,28 @@ https://angular.io/about?group=GDE
 
 
 
+Alain Chautard 
+https://github.com/alcfeoh/ng2-training
+15
+ng serve demos
+ to start the demos app. Navigate to http://localhost:4201
+ 
+https://github.com/alcfeoh/ng2-training-solutions
+
+
+https://github.com/alcfeoh/ng-weather
+14
+http://ng-weather.angulartraining.com/
+us only
+90001 Los Angeles
+
+
+
+https://github.com/alcfeoh/ng-advanced-workshop
+8 OLD
+
+
+
 
 Dmytro Mezhenskyi
 courses.decodedfrontend.io
@@ -19,10 +41,51 @@ https://github.com/alisaduncan/angular-practical-providers-code
 
 Chau Tran
 https://github.com/nartc/ng-template-outlet-example
+@ngrx/component-store
+
 
 RealWorld solves this by allowing you to choose any frontend (React, Angular, & more) and any backend (Node, Django, & more) and see how they power a real-world, beautifully designed full-stack app called Conduit.
 https://github.com/nartc/ng-conduit
+14.2.2
+https://ng-conduit.netlify.app/#/
+
 https://github.com/gothinkster/realworld
+https://github.com/gothinkster/realworld/discussions
+https://www.realworld.how/
+
+
+https://realworld-docs.netlify.app/docs/implementation-creation/introduction/
+Conduit is a social blogging site (i.e. a Medium.com clone). It uses a custom API for all requests, including authentication.
+
+
+https://github.com/gothinkster/angular-realworld-example-app
+11
+
+https://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app
+Angular 15, NgRx 15, nrwl/nx 15 
+
+https://demo.realworld.io/#/
+https://thinkster.io/tutorials/building-real-world-angular-2-apps
+
+https://github.com/coolrare/angular-advanced-realworld-finish
+14.1.0
+
+https://github.com/wszgrcy/angular-miniprogram-realworld
+
+https://github.com/btradr/conduit-clone
+13.3.6
+
+https://github.com/khaledosman/angular-realworld-example-app
+13.2.0
+
+
+
+
+
+https://github.com/JunkieLabs/treeform-angular-webapp
+9.0+
+Angular Material
+treeform.junkielabs.in
 
 
 
@@ -30,3 +93,332 @@ https://github.com/gothinkster/realworld
 Tomas Trajan
 https://github.com/tomastrajan
 old
+
+
+
+Joe Eames
+https://github.com/joeeames
+old
+Fundamentals of Angular
+https://thinkster.io/topics/fundamentals-of-angular
+https://www.youtube.com/watch?v=1kQBg-9H1Js
+13 Hours of Video
+interactive exercises
+
+
+
+Johannes Hoppe
+no source codes
+
+
+
+Jordan Powell
+https://github.com/jordanpowell88/blog
+https://github.com/jordanpowell88/
+old
+
+
+
+Jorge Cano
+https://github.com/jorgeucano
+old
+
+
+
+Joshua Morony
+https://github.com/joshuamorony/angular-notice-board
+15
+
+https://github.com/joshuamorony/angular-zone-cd-example
+14
+
+https://github.com/joshuamorony/angular-onpush-reactive-forms
+14
+
+
+
+Josue Gutierrez
+https://josueggh.github.io/
+old
+
+
+
+Juri Strumpflohner 
+https://github.com/juristr
+old
+
+
+
+Justin Schwartzenberger
+https://github.com/jschwarty/angular-essential-training
+14.0.0-next.4
+
+
+
+Kamil Mysliwiec
+Creator of NestJS
+
+
+
+Katerina Skroumpelou
+Google Maps
+
+
+Keilla Menezes Fernandes
+?
+
+
+Kevin Davila
+https://github.com/kevindaviladev/angular-crud-v15-standalone-firebase
+
+
+
+Kevin Kreuzer
+https://github.com/kreuzerk/ng-sortgrid
+https://github.com/kreuzerk/RxJS
+
+Kevin Yang
+https://github.com/chgc/dynamic-form-with-controlContainer
+
+Kim Maida
+https://github.com/kmaida/
+old
+
+Kwinten Pisman
+https://github.com/KwintenP
+old
+No angular
+
+Leonardo Zizzamia
+https://github.com/Zizzamia
+old
+
+Maina Wycliffe
+https://github.com/mainawycliffe/angular-without-modules-demo
+https://angular-without-modules.vercel.app/
+todo app, built with only standalone components, no modules
+14
+
+https://github.com/mainawycliffe/angular-cdk-accordion-demo
+
+
+Manfred Steyer
+https://github.com/manfredsteyer/standalone-example-cli.git
+https://www.angulararchitects.io/en/aktuelles/the-refurbished-httpclient-in-angular-15-standalone-apis-and-functional-interceptors/
+15
+
+https://github.com/manfredsteyer/angular-crud
+13
+https://www.angulararchitects.io/en/
+
+Maria Korneeva
+?
+
+
+
+Marko Stanimirović
+https://github.com/markostanimirovic/musicians-app
+15
+
+https://github.com/markostanimirovic/reactive-ng-workshop
+13
+
+https://github.com/markostanimirovic/juliette
+Reactive State Management Powered by RxJS 
+12
+rxjs": "~6.6.7
+https://dev.to/this-is-angular/dry-way-to-manage-subscriptions-in-angular-components-256j
+
+Martina Kraus
+https://github.com/martinakraus/bookmonkey-client-standalone
+15
+
+Mashhood Rastgar
+https://github.com/mashhoodr/
+?
+
+Maxim Salnikov
+old
+
+Michael Hladky
+https://github.com/BioPhoton/
+?
+
+Michele Stieven
+old
+
+Mike Brocchi
+https://github.com/Brocco/standalone-toh
+15
+https://github.com/Brocco/rxjs-subjects-playground
+
+https://github.com/Brocco/ng-service-operators
+
+Mike Hartington
+https://github.com/mhartington/StarTrack-ng
+https://github.com/mhartington/angular-14-test
+
+Mike Huang
+https://github.com/wellwind
+
+Muhammad Ahsan Ayaz
+https://github.com/AhsanAyaz/ng-custom-form-control
+ControlValueAccessor
+11
+
+Natalia Venditto
+https://github.com/anfibiacreativa/myapp-apollo-interceptors
+
+Nicolas Molina
+old
+
+Nir Kaufman
+NGRX Store Demo
+https://github.com/nirkaufman/state-workshop-ref
+14
+
+https://github.com/nirkaufman/state-workshop-labs
+14
+
+Nishu Goel
+old https://github.com/NishuGoel/CRUDwithAngular
+old https://github.com/NishuGoel/frameworkAgnostic-searchBar
+
+Pascal Precht
+?
+
+Patricio Vargas
+old
+https://github.com/devpato/angular-github-search
+https://github.com/devpato/angular-google-maps-tutorial
+
+??? Cory Rylan
+simple https://github.com/coryrylan/beginner-reactive-programming-with-rxjs/tree/master/angular-demo
+
+Preston Lamb
+old
+
+Ralph Wang
+https://github.com/asnowwolf
+angular-cn 中文
+
+Raúl Jiménez
+old
+https://github.com/Elecash/
+
+Ricardo Chavarria
+old
+https://github.com/ricardochl/
+
+Roman Sedov
+https://github.com/MarsiBarsi
+https://github.com/ng-web-apis/common
+
+Sajeetharan Sinnathurai
+https://github.com/sajeetharan/devfest2022/tree/main/devfest-todo-app
+
+Sam Julien
+old
+https://github.com/samjulien
+
+Sam Vloeberghs
+? https://github.com/samvloeberghs
+
+Sander Elias
+? https://github.com/SanderElias/Samples
+
+Santosh Yadav
+https://github.com/SanderElias/Samples
+14
+
+Selin Tunc
+?
+
+Shai Reznik
+???  https://github.com/shairez
+
+Sharon DiOrio
+old
+
+Siddharth Ajmera
+https://github.com/SiddAjmera/Angular14App
+
+Srashti Jain
+https://github.com/srashtisj/angular-demo-app
+
+Stanimira Vlaeva
+?
+
+Stepan Suvorov
+https://github.com/stevermeister/
+old
+
+Suguru Inatomi
+https://github.com/lacolaco/angular-sac
+elementify: A function to convert an Angular SAC into the custom element
+
+https://github.com/lacolaco/angular-dynamic-navlist-example
+https://stackblitz.com/github/lacolaco/angular-dynamic-navlist-example?file=src%2Fapp%2Fnav-list%2Fnav-list.component.ts
+
+https://github.com/lacolaco/reactive-store
+https://github.com/lacolaco/reactive-store/tree/main/examples/example-angular/src/app/examples
+
+Thierry Chatel
+old
+https://github.com/tchatel
+
+Todd Motto
+old
+https://github.com/toddmotto
+
+Tomas Trajan
+old
+https://github.com/tomastrajan
+
+Tracy Lee
+old
+https://github.com/ladyleet/
+
+Uri Shaked
+https://github.com/urish
+
+Ward Bell
+Model-Driven validation, in contrast to the Form-Driven validation that we are taught in the Angular docs.
+mini-version of a Payroll Service Enrollment Application
+https://github.com/wardbell/ngc-validate
+14
+https://github.com/wardbell/subsink
+RxJS subscription sink for unsubscribing gracefully in a component 
+
+Wassim Chegham
+old
+https://github.com/manekinekko/
+
+
+Wes Grimes
+old
+https://github.com/wesleygrimes
+
+Wilson Mendes
+https://github.com/willmendesneto/ngx-feature-toggle
+
+Yannick Baron
+old
+https://github.com/thinktecture
+
+
+Younes Jaaidi
+Angular is one of the easiest frameworks to integrate with modern dev tools out of the box (e.g. Vite, Vitest, SWC, Playwright Component Testing)
+https://marmicode.io/blog/versatile-angular
+https://github.com/yjaaidi/experiments/tree/versatile-angular
+
+https://github.com/jscutlery/devkit
+https://github.com/yjaaidi/experiments/tree/private-configurable-store
+
+Zack DeRose
+https://github.com/ZackDeRose/derxjs
+Domain-agnostic state-management
+
+https://github.com/ZackDeRose/angular-supaship-io
+Supabase is an open source Firebase alternative.
+Supabase is a dedicated PostgreSQL database

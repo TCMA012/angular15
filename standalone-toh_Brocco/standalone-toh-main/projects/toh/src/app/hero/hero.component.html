@@ -1,0 +1,15 @@
+<ng-container *ngIf="hero$ | async; let hero">
+  <ng-container *ngIf="mode === 'view'">
+    <span>{{ hero.name }} ({{ hero.id }})</span>
+    <button (click)="editHero(hero)">✎</button>
+    <button (click)="setMode('add')">+</button>
+  </ng-container>
+  <ng-container *ngIf="mode === 'edit'">
+    <input type="text" [(ngModel)]="heroName" />
+    <button (click)="saveHero(hero.id, heroName)">✔︎</button>
+  </ng-container>
+  <ng-container *ngIf="mode === 'add'">
+    <input type="text" [(ngModel)]="heroName" />
+    <button (click)="saveHero(undefined, heroName)">✔︎</button>
+  </ng-container>
+</ng-container>

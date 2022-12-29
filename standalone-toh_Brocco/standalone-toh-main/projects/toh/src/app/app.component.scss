@@ -1,0 +1,18 @@
+nav {
+
+  margin: 10px;
+}
+a {
+  padding: 5px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #ff000088;
+  }
+
+  &:not(:first-child) {
+    margin-left: 10px;
+  }
+}
