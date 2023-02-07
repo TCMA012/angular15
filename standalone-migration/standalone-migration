@@ -1,0 +1,8 @@
+https://timdeschryver.dev/blog/i-tried-the-angular-standalone-migration-and-here-is-the-result
+
+https://github.com/timdeschryver/ng-standalone-migration/tree/before
+While the application is small, it contains a little bit of everything, child components, eager and lazy loaded modules, a pipe, a directive, a couple of tests, and a service.
+
+https://github.com/timdeschryver/ng-standalone-migration
+
+https://github.com/timdeschryver/ng-standalone-migration/tree/after
