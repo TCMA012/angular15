@@ -3,9 +3,11 @@ https://angular.io/about?group=GDE
 
 
 
+
 Alain Chautard 
 https://github.com/alcfeoh/ng2-training
 15
+
 ng serve demos
  to start the demos app. Navigate to http://localhost:4201
  
@@ -398,6 +400,8 @@ old
 
 Justin Schwartzenberger
 https://github.com/jschwarty/angular-essential-training
+Angular Essential Training Online Class - LinkedIn
+1-month free trial
 14.0.0-next.4
 
 
@@ -419,8 +423,16 @@ https://github.com/kevindaviladev/angular-crud-v15-standalone-firebase
 
 
 Kevin Kreuzer
+https://github.com/kreuzerk/resuable-subforms
 https://github.com/kreuzerk/ng-sortgrid
 https://github.com/kreuzerk/RxJS
+https://github.com/kreuzerk/fun-with-signals
+https://github.com/kreuzerk/signalo
+https://github.com/kreuzerk/the-mighty-eleven
+https://indepth.dev/posts/1319/the-best-way-to-implement-custom-validators
+https://indepth.dev/posts/1288/heres-what-you-should-know-when-creating-flexible-and-reusable-components-in-angular
+
+
 
 Kevin Yang
 https://github.co
@@ -449,9 +461,11 @@ https://github.com/mainawycliffe/angular-cdk-accordion-demo
 
 
 Manfred Steyer
-https://github.com/manfredsteyer/standalone-example-cli.git
+https://github.com/manfredsteyer/standalone-example-cli
+https://www.angulararchitects.io/en/aktuelles/angulars-future-without-ngmodules-lightweight-solutions-on-top-of-standalone-components/
 https://www.angulararchitects.io/en/aktuelles/the-refurbished-httpclient-in-angular-15-standalone-apis-and-functional-interceptors/
 15
+15.2
 
 https://github.com/manfredsteyer/angular-crud
 13
