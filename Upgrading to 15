@@ -1,0 +1,14 @@
+Rakia Ben Sassi
+Upgrading to Angular 15
+https://levelup.gitconnected.com/angular-upgrade-26d331837012
+The new Angular release came with a support for 
+Node.js versions 14.20.x, 16.13.x, and 18.10.x. 
+node --version
+
+Step 1: Upgrade TypeScript
+
+Check which packages have newer versions available: 
+npm outdated
+
+To update just the typescript dependency to version 4.8.4: 
+npm install typescript@4.8.4
