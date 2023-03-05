@@ -11,10 +11,26 @@ https://github.com/alcfeoh/ng2-training-solutions
 
 
 cd /media/tcma/SeagateBackupPlusDrive/angular15
+
 mkdir alcfeoh && cd "$_"
 
+cd alcfeoh
+
+find . -name "*.js"
+
+
+
 cd /media/tcma/SeagateBackupPlusDrive
+
 mkdir angularalcfeoh && cd "$_"
+
+cd angularalcfeoh/ng2-training-master
+
+
+
+elements/elements.js
+
+https://angular.io/guide/elements
 
 
 
