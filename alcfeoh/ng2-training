@@ -1,0 +1,43 @@
+https://github.com/alcfeoh/ng2-training
+15
+
+ng serve demos
+
+ to start the demos app. 
+Navigate to 
+http://localhost:4201
+ 
+https://github.com/alcfeoh/ng2-training-solutions
+
+
+cd /media/tcma/SeagateBackupPlusDrive/angular15
+mkdir alcfeoh && cd "$_"
+
+cd /media/tcma/SeagateBackupPlusDrive
+mkdir angularalcfeoh && cd "$_"
+
+
+
+http://localhost:8000/cart/
+return this.http.delete('http://localhost:8000/cart/' + plate._id);
+
+
+lp-store-server
+A basic RESTful server for training purposes. 
+
+document-register-element
+A stand-alone working lightweight version of the W3C Custom Elements specification.
+
+compodoc
+The missing documentation tool for your Angular application.
+
+
+
+removeFromCart(plate: LicensePlate): void {
+    // TODO
+  }
+
+currency-switcher.component.ts
+  changeCurrency(currency: Currency): void {
+    // TODO
+  }
