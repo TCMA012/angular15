@@ -1,0 +1,29 @@
+We are looking for 5 days of Angular remote training.
+What is the version of your Angular? 15?
+What is the course curriculum?
+Are the source codes and training materials available for download? 
+Who is the instructor?
+What is the price? - in Canadian dollar if possible.
+
+https://angular.io/about?group=GDE
+
+
+
+Thanks for reaching out to me. Attached is the curriculum of the 5-day class.
+All materials and source code are given to the attendees so they can use those after the training is done, too. We always teach the latest version, so it's Angular 15 now.
+The instructor is always myself, Alain Chautard, Google Developer Expert. I've taught Angular to thousands of people around the world (attached is some feedback from my classes) and have spoken at all of the biggest Angular conferences in the world.
+
+A few questions for you:
+- How many people are you looking to get trained?
+- What is the timezone of those trainees?
+- When would you like the training to happen?
+
+Let me know if you have other questions,
+
+Alain Chautard
+Google Developer Expert in Angular
+Consultant and trainer at angulartraining.com - Interstate 21, LLC
+
+al@interstate21.com
+www.interstate21.com
+Rancho Cordova, California, USA
