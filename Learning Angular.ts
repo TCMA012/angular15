@@ -1,4 +1,4 @@
-Learning Angular, Fourth Edition
+/*Learning Angular, Fourth Edition
 packtpub.com
 Packt
 Aristeidis Bampakos, Pablo Deelema
@@ -22,13 +22,19 @@ Angular 15.0.0
 12 Unit Test an Angular Application
 13 Bringing Application to Production
 14 Handling Errors and Application Debugging
-Early Access
-March 2023
+
+
+Always use the
+json
+pipe
+when interpolating an object.
+Otherwise you will see
+[object Object]
 
 
 
 ch05
-
+*/
 @ViewChild(ProductDetailComponent) productDetail: ProductDetailComponent | undefined;
 
 @Input() product: Product | undefined;
@@ -38,4 +44,16 @@ ch05
 
 
 
-ElementRef : Use with caution
+//ElementRef : Use with caution
+
+
+/*
+ch08
+https://fakestoreapi.com/auth/login
+*/
+export const checkoutGuard:
+CanDeactivateFn<CartComponent> = () => {
+    const confirmation = confirm('You have pending items in your cart. Do you want to continue?');
+    return confirmation;
+};
+
