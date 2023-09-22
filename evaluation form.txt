@@ -1,0 +1,19 @@
+This is a friendly reminder to complete the evaluation form at the end of the class.
+In the student portal (https://www.webagesolutions.com/student-portal/sign-in), you'll see "Evaluate class" next to "Join class meeting." Please contact us at webpage.techsupport@inoryasoft.com if you face any difficulties.
+We are happy to help you.
+https://store.webagesolutions.com/commerce/public/evaluation.do?classCode=724249-15114
+
+
+I asked Aletha:
+How to implement my user input forms use case in Angular?
+
+Aletha provided some sample codes with regex for Canadian and US Postal Codes, which are good to start.
+
+Lab 13, 14 & 15 are very good.
+
+data.service.ts
+saveBook(book: Book): Observable<any> {
+
+I like to avoid using any if possible.
+I find the solution to avoid using any.
+

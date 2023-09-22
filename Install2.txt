@@ -1,0 +1,20 @@
+npm I @angular/cli
+npm install @angular/cli
+npm install @angular/cli@15
+
+	How to use angular-cli without global installation
+	Using a different version of Angular
+npx -p @angular/cli@15 ng new myapp
+
+npx -p @angular/cli@12 ng new myapp12
+
+
+
+Just use the 
+npx 
+command when you need to run a command line application inside the scope of a project. It looks inside the current project's node_modules to use the binary for that project. No globally installed packages needed.
+
+So, for example, 
+npx ng build 
+instead of 
+ng build

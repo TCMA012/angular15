@@ -1,0 +1,297 @@
+?cd C:\LabWork
+
+C:\Angular15\LabWork\my-test-app\src
+
+C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\Solutions
+Lab05
+
+
+cd C:\Angular15\LabWork
+
+cd C:/Angular15/LabWork
+
+__3. Enter this 2 commands to setup a user in git:
+git config --global user.email "wasadmin@wasadmin.com"
+git config --global user.name "wasadmin"
+git config --global user.email "tingchong.ma12@gmail.com"
+git config --global user.name "Ting-Chong Ma"
+
+__4. Run this command to create a new project called hello.
+ng new my-test-app --defaults
+
+ng new my-form-app --defaults
+
+
+cd /c/Angular15/WA3281-REL_1_3-Student/WA3281-REL_1_3-Supporting/LabFiles
+
+ls
+advanced-routing/  book-server/  car-photos/  cars.txt  inventory-server/  rest-client/  Solutions/
+
+cd Solutions
+cd Lab02
+cd my-test-app/
+
+
+
+
+
+C:\Angular15\Angular15-main\demosch3ang
+cd C:/Angular15/Angular15-main/demosch3ang
+
+
+
+cd /c/Angular15/WA3281-REL_1_3-Student/WA3281-REL_1_3-Supporting/LabFiles/Solutions
+
+cd Lab03
+cd my-test-app/
+
+
+
+
+cd C:/Angular15/LabWork/
+C:\Angular15\LabWork\my-test-app\src
+
+cd C:/Angular15/LabWork/my-test-app
+
+mkdir Lab
+
+
+
+Lab07
+solution doesn't have that cancel edit
+figured out the hard part, just need to dismiss the fields
+
+
+
+Lab08
+reactive forms
+
+Lab9 done
+
+
+
+
+
+
+
+cd C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\book-server
+
+
+
+
+Lab11
+
+
+
+cd C:\Angular15\LabWork
+
+mkdir Lab12
+cd Lab12
+
+ng new route-test --routing --defaults
+
+
+
+npm start
+
+
+
+
+Lab13 is good !
+mkdir Lab13
+cd Lab13
+
+ng new rest-client --routing --defaults
+
+
+
+This web service does not supports CORS. 
+We need to setup Angular CLI as a reverse proxy for the web service calls
+
+Copy C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\Solutions\Lab13\rest-client\proxy.config.json rest-client\.
+
+Edit the 
+package.json 
+file, replace the start line in
+the scripts section with the following and save the file:
+"start": "ng serve --proxy-config proxy.config.json",
+
+
+
+cd C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\book-server
+
+npm start
+
+http://localhost:3000/books/
+
+
+
+
+npm start
+
+http://localhost:4200/books/
+
+
+
+
+http://localhost:4200
+
+
+This lab is good !
+ excellent 
+
+
+
+mkdir Lab14
+cd Lab14
+
+
+Lab 14 modify Lab13
+
+
+Copy C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\Solutions\Lab14\rest-client\proxy.config.json rest-client\.
+
+Edit the 
+package.json 
+file, replace the start line in
+the scripts section with the following and save the file:
+"start": "ng serve --proxy-config proxy.config.json",
+?
+
+
+
+
+mkdir Lab15
+cd Lab15
+
+Copy C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\Solutions\Lab15\rest-client\proxy.config.json rest-client\.
+
+Edit the 
+package.json 
+file, replace the start line in
+the scripts section with the following and save the file:
+"start": "ng serve --proxy-config proxy.config.json",
+
+
+
+Lab 15 Using Angular Bootstrap
+From the VS Code terminal run:
+ng add @ng-bootstrap/ng-bootstrap
+
+
+
+
+Why setup Angular CLI as a reverse proxy for the web service calls?
+no need to call the http://localhost:3000/
+
+
+
+data.service.ts
+May I change the signature of saveBook?
+e.g.  there is a compile error 
+  // saveBook(book: Book): Observable<any> {
+  saveBook(book: Book): Observable<Book> {
+    return this.http.put(`/books/${book.isbn}`, book).pipe(
+      tap(() => this.bookCache[book.isbn] = book)
+    )
+  }
+  
+  
+  [{
+	"resource": "/c:/Angular15/LabWork/Lab14/rest-client/src/app/data.service.ts",
+	"owner": "typescript",
+	"code": "2345",
+	"severity": 8,
+	"message": "Argument of type 'MonoTypeOperatorFunction<Book>' is not assignable to parameter of type 'OperatorFunction<Object, Book>'.\n  Types of parameters 'source' and 'source' are incompatible.\n    Type 'Observable<Object>' is not assignable to type 'Observable<Book>'.\n      The 'Object' type is assignable to very few other types. Did you mean to use the 'any' type instead?\n        Type 'Object' is missing the following properties from type 'Book': isbn, title, price",
+	"source": "ts",
+	"startLineNumber": 49,
+	"startColumn": 7,
+	"endLineNumber": 49,
+	"endColumn": 50
+}]
+
+this.http.put   Type 'Observable<Object>' is not assignable to type 'Observable<Book>'
+
+But using any is not a good practice.
+
+I finished Lab 14 & 15.
+They are very good.
+I like to avoid using any if possible.
+
+
+
+I find the solution - no compile error! :
+data.service.ts
+saveBook(book: Book): Observable<Book> {
+    return this.http.put<Book>(`/books/${book.isbn}`, book).pipe(
+      tap(() => this.bookCache[book.isbn] = book)
+    )
+}
+
+
+
+cd C:\Angular15\LabWork
+
+Lab 16 - Lazy Module Loading
+mkdir Lab16
+cd Lab16
+
+ng new large-app --routing --defaults
+
+
+
+??? Is there a way to highlight the home button as the active button when at "http://localhost:4200/"? If we're not redirecting.
+
+
+
+mkdir Lab17
+cd Lab17
+
+ng new advanced-routing --routing --defaults
+
+
+
+
+Lab 18 - Unit Testing
+Rename your my-test-app directory from lab11 as shown here:
+From: C:\LabWorks\my-test-app
+To: C:\LabWorks\my-test-app-lab11
+
+C:\Angular15\LabWork\my-test-app-lab11
+
+
+
+mkdir Lab18
+cd Lab18
+
+ng new my-test-app --defaults
+
+
+
+cd C:\Angular15\LabWork\Lab18\my-test-app\inventory-server
+
+npm start
+
+
+
+
+cd C:\Angular15\LabWork\Lab18\my-test-app\
+
+npm start
+
+
+
+
+The async/whenStable approach lets a test script wait for the Observable to fire
+(indicating the completion of an HTTP call).
+
+npm test
+
+
+
+
+Lab 19 - Debugging Angular Applications
+C:\LabWork\rest-client
+Open the browser developer tool (F12) and the Console pane.
+
+I finished Lab 19.

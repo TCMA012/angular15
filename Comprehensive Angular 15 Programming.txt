@@ -1,0 +1,75 @@
+Comprehensive Angular 15 Programming
+https://www.webagesolutions.com/student-portal/sign-in
+https://support.webagesolutions.com/hc/en-us/requests/new
+https://github.com/EdgeCourse/Angular15
+
+
+
+Live coding / demos makes some mistakes
+
+Zoom is not reliable
+
+2023-09-18	
+To
+2023-09-22
+09:00 AM - 05:00 PM Eastern Standard Time
+
+Ting-Chong.ma@cra-arc.gc.ca
+tingchong.ma12@gmail.com
+30JZQ8yX157457302
+Welcome!23
+
+Ting-Chong Ma
+
+Gary Bilodeau
+Your client representative
+
+Instructors
+Aletha Read
+1-877-812-8887
+getinfo@webagesolutions.com
+cENTAL Time
+
+Good morning
+
+I filled out a TCAF number 30929 for the Angular 15 sessions in September.
+I will use my home computer and email for this Angular course, right?
+I use my home computer. I do not use any VM.
+
+Hi,
+
+I am Ting-Chong Ma.
+You may call me TC.
+My favorite languages are C, C++, Java, awk, ...
+I am learning JavaScript, TypeScript.
+
+EST.
+
+angular
+DeborahKurata
+
+How to access the virtual machine?
+ 
+I couldn't find the virtual machine
+
+
+this is going to need multiple monitors - is there any issue if I do this training from a personal PC?
+
+I am using Zoom on my own machine and using RDP from my CRA machine. I didn't install anything on my CRA machine.
+I am using CRA's machine for both zoom and vm, but in web browsers
+
+I am using a personal PC.
+
+I installed Angular 15 on one personal PC and Angular 16 on another personal PC.
+
+
+
+In the student portal you will find a file with the instructions. The instructor should explain during the beginning of the class.
+
+
+I do not a file with the instructions for virtual machine.
+
+
+WA3281-724249-102 Ting-Chong Ma WA3281-724249-102.rdp
+Username: LABS\wasadmin
+Password: wasadmin

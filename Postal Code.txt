@@ -1,0 +1,147 @@
+angular github address Country "Postal Code" "Zip Code"
+github "angular" address Country "Postal Code" "Zip Code"
+github "angular" Country "Postal Code" "Zip Code"
+github "angular" Country "Postal Code"
+
+
+Finds "City, State" from ZIP code.
+https://github.com/ZachNusbaum/ng-zipcode
+https://zncodes.com/ng/zipcoder/
+7.0.1
+Before deploying to production, make a copy of /src/environments/environment.ts and name it /src/environments/environment.prod.ts. Update both files with your Google Static Maps API key.
+
+
+New York City	10000	40.7069	-73.6731
+New York City	10001
+New York City	10099	40.7808	-73.9772
+New York City	10101
+
+
+
+Ziptastic ZIP -> City/State lookups
+https://github.com/bendrucker/angular-ziptastic
+https://www.getziptastic.com/register/
+$10/month, 1000 requests per day
+? https://zip.getziptastic.com/v2
+
+
+
+https://github.com/perceivechuchu/international-phone-numbers
+This is a simple library that provides component and service for dealing with capturing and validating international phone numbers. It allows you to create a phone number field with country flag, country name and country postal code dropdown.
+C:\Angular15\international-phone-numbers-master
+cd C:/Angular15/international-phone-numbers-master
+7.0.0
+bootstrap": "4.0.0"
+rxjs": "6.3.0"
+syncfusion
+
+export class PhoneNumbersService {
+  public allCountries: Array<Country> = [
+    {"countryName":"Algeria", "countryCode":"DZ", "postalCode":"+213", "flag":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAUCAIAAAAVyRqTAAAArElEQVRIx2NgaLMgHv0nBTCMGj24jHZM1Fyrwn+Lm+UdH98nd/dfe/ZQx+gCN9m3DAyvGRkqnaR/nznz59Klnxs2/Jg3j1KjrVO0gOY+ZWVySNKEB8jfN2/+ffr07/t3ioxepSYANHqxlhCE+2vz5r8fPnz29aVCgNzkYQUaHRGiDOH+mD37LTPzWxaW7xMm/H3/nlZG/6PQaBoGCA2jkYaJj7ZZZrR4GgJGAwCInkae3DZMUwAAAABJRU5ErkJggg=="},
+
+
+
+Angular, 
+Angular Google Maps (AGM) and 
+IPAPI.co to plot the user's location on a map.
+Angular app to show user location, using Apapi API & the Google Maps for Angular module. Youtube tutorial by Gary Simon
+https://github.com/AndrewJBateman/angular-app-maps
+15.0.4
+agm/core": "^1.1.0"
+rxjs": "~7.8.0"
+
+https://ipapi.co/json
+an  API  to find the
+IP addresslocationtimezonecitycountrypostal codelatitude / longitude
+of a device
+of an IP address
+    "city": "Ottawa",
+    "region": "Ontario",
+    "region_code": "ON",
+    "country": "CA",
+	
+	
+
+This repository contains lists of zipcodes and their respective cities for all countries present in the openstreetmap data.
+There are seperate files for each country and for both directions (zip to city and city to zip).
+There is also a file with the data of all countries.
+The script to generate this dataset is licensed under the mit license and can be found in the src folder.
+All files are generated. If you find errors in them, please fix them directly in the openstreetmap database.
+https://github.com/mauricedoepke/zipcodelist
+city_to_zip-CA.json 
+
+
+
+A sample checkout form built in Angular and NGXS
+Reactive form
+https://emilyxiong.medium.com/how-to-create-a-complex-form-in-angular-bdfaee0464d3
+https://github.com/xiongemi/angular-form-ngxs
+https://xiongemi.github.io/angular-form-ngxs/delivery
+
+Optional: we could use name or autocomplete to input field to enable autofill
+https://developers.google.com/web/updates/2015/06/checkout-faster-with-autofill
+
+
+
+Authentication using the Amazon Cognito to an Angular application
+https://dev.to/rodrigokamada/authentication-using-the-amazon-cognito-to-an-angular-application-ilh
+https://github.com/rodrigokamada/angular-amazon-cognito
+
+
+
+
+how to get the name of the nested formGroup in each child component?
+using an @input decorator
+@Input() formGroupName
+Angular "@Input() formGroupName"
+https://blog.profanis.me/blog/reactive-forms-in-parent-child-components
+https://stackblitz.com/edit/user-registration-with-fgd?file=src/app/user-registration/user-registration/user-registration.component.html
+user-registration-with-fgd.zip
+
+
+https://blog.profanis.me/blog/smart-dumb-in-nested-reactive-forms 
+11/9/2018
+
+
+
+Angular nested FormGroup
+
+
+
+Indonesian postal code search API by place name, village or city.
+https://github.com/sooluh/kodepos
+? https://kodepos.vercel.app/
+curl -XGET 'http://localhost:3000/search/?q=danasari'
+
+
+
+
+Complete application project to consult postal codes of Portugal
+https://github.com/avmesquita/CTT-App-Angular-NestJS
+
+Backend REST API com NestJS
+Frontend com ANGULAR a consumer backend
+.net database management application in sqlite (imported from https://github.io/avmesquita/CTT-Api)
+
+Backend Endpoints
+Swagger => /swagger
+Apartado => /api/apartado
+Codigo Postal => /api/codigo-postal
+Concelho => /api/concelho
+Distrito => /api/distrito
+Test => /api
+
+cd frontend
+npm install
+npm run build
+
+BACKEND
+
+cd api
+npm install
+npm run build:prod
+
+DEV
+cd api
+npm install
+npm run start:dev

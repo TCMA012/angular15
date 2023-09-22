@@ -1,0 +1,32 @@
+cd C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\book-server
+
+npm start
+
+> rest-server@1.0.0 start
+> node server
+
+Open a browser to http://localhost:3000 to view the application
+
+
+ 
+http://localhost:3000/books
+
+
+
+
+cd C:\Angular15\WA3281-REL_1_3-Student\WA3281-REL_1_3-Supporting\LabFiles\inventory-server
+
+npm install
+
+npm start
+
+> rest-server@1.0.0 start
+> node server
+
+Service endpoint base: http://localhost:3000/vehicle
+
+
+
+
+Cross Origin Resource Sharing (CORS)
+

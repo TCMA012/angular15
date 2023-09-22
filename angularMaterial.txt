@@ -1,0 +1,10 @@
+C:\angularMaterial
+cd C:/angularMaterial
+
+ng new my-app --defaults
+
+cd my-app
+
+ng add @angular/material
+
+? ng add @angular/material --defaults

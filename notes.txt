@@ -1,0 +1,482 @@
+https://github.com/EdgeCourse/Angular15
+
+selector
+select the component in other components
+selects the html component
+So it's a definition for a custom tag to *allow us to select* the project within the CSS/HTML
+
+
+CSS selector
+
+
+
+JS is NOT object-oriented
+But it is object-based
+Prototypal
+
+
+
+Inside a function, both var and let are local
+
+Outside, they both appear to be global
+
+Why do we want an anonymous function?
+Minimize context switching...
+
+
+
+
+https://www.tutorialsteacher.com/typescript
+
+
+
+logical nullish assignment (??=) operator
+
+
+
+Nullish coalescing operator (??)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing
+
+
+
+ng new
+
+ng g c
+
+ng g s
+
+
+
+
+disable Input
+display error message
+when Input non compliant
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
+
+
+
+Default behavior of click?
+
+#middle
+
+“#’
+
+Is there any issue with continuing to use the VM outside of these hours to tinker?
+
+
+
+
+
+MVC+R
+
+
+
+always passing in the same instance of the service everywhere the PetService is used instead of constructing multiple instances
+
+
+
+
+
+See you tomorrow. I have a use case I will ask tomorrow.
+
+
+
+
+[innerHtml]=description
+get the latest value
+
+{{description}}
+not get the latest value
+
+
+
+<input type="checkbox"
+[checked]="policy"
+(change)="policy = $event.target.checked"/>
+
+
+<form>
+<input type="text">
+<br>
+<input type="text" required>
+<br>
+<input type="email">
+<br>
+<input type="date">
+<button type="submit" button/>
+</form>
+
+
+    console.log('addVehicle v', v);
+	
+	
+	
+Front end form validation is really data qualification
+
+
+
+
+Please continue teaching.
+
+I will do the labs on my own time.
+
+
+
+
+jsonplaceholder.typicode.com
+
+
+
+REST
+
+
+
+
+URL based resource access
+
+
+
+.then()
+.subscribe()
+:isbn
+
+
+
+For i18n, on CRA websites there is often/always a button to change language between EN/FR no matter what page you are on -- i.e. you can change languages at any moment. Can we call registerLocaleData at any time somebody clicks the switcheroo button, or just on the app startup/main page?
+So perhaps we just need to wrap our strings and lookup the resource at runtime in the right string file?
+Right we store all strings in files, never googletrans.
+
+change language stay in the Same page
+
+I think CRA demo use npm ngx-translate
+
+
+
+https://www.w3schools.com/js/js_window_location.asp
+
+
+
+SASS
+https://sass-lang.com/
+
+
+
+https://rxjs.dev/guide/overview
+https://rxmarbles.com/
+
+
+I like to learn more about rxjs.
+
+
+
+zip as in zipper, they interweave
+
+like a zipper merge for two traffic lines, taking turns
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+
+
+
+Chrome, Appication, localStorage
+
+
+
+tomvc.com
+
+
+
+
+ng g m 
+ng g module checkout --routing
+
+
+
+
+https://angular.io/guide/testing
+
+ng test
+
+
+
+
+
+https://jasmine.github.io/
+
+https://www.tutorialspoint.com/jasminejs/jasminejs_equality_check.htm
+
+Mocha, Jest
+
+
+it()
+
+
+
+Jest: test()
+
+
+
+Many features
+rxjs work out of the box is good, but take time to learn
+
+
+
+
+ngx-logger
+
+
+
+Angular keep improving for each release
+
+
+
+
+https://jasonwatmore.com/post/2022/11/15/angular-14-jwt-authentication-example-tutorial
+
+
+
+https://jasonwatmore.com/fake-backend-ts
+// provider used to create fake backend located in the app module (/src/app/app.module.ts)
+
+https://github.com/cornflourblue/angular-14-jwt-authentication-example
+https://github.com/cornflourblue/node-jwt-authentication-api
+
+
+
+
+https://jasonwatmore.com/post/2022/11/17/angular-14-communicating-between-components-with-rxjs-observable-subject
+
+
+
+
+https://medium.com/@ryanchenkie_40935/angular-authentication-using-the-http-client-and-http-interceptors-2f9d1540eb8
+
+
+
+
+
+
+Any info/ancedotes about deployment techniques or pipeline usage with Angular projects
+
+
+
+when you use the refresh button of the browser, will the components be recreated?
+retrieving data from the server?
+
+Does refresh effect the local storage stuff you mentioned? i wasn't aware that was even a thing I only knew about old school cookies.....
+affect*
+
+
+
+
+Put it at your github
+
+
+
+
+{{expression}} - one way binding from controller to view
+<button (click)=“dothis”>
+<button (click)=“dothisFunction()”>
+(click) - one way binding, view to controller
+<img [src] = imageurl>
+<img [src] = "imageurl”>
+
+<img [ngClass] = “bordered highlight”>
+[(ngModel)] - two-way binding in forms,
+
+[(ngModel)] = “query”
+query
+query.value
+
+
+
+Not input/output:
+Using the selector in the template
+
+Using the selector from one component in another
+(Another component’s template)
+
+
+
+
+done the labs, 19 was basically review, 18 was a bit rough
+though the solution cheats, so that didn't help XD
+
+the official fix for one of the failed tests was "comment it out"
+
+Ok but a failed test is a way to test too.
+It doesn’t mean the code is wrong
+
+Writing a test case, means you're expecting a certain output - sometimes that means a failure. Testing succeeds when all your failures are expected, and none of your successes are unexpected
+
+
+
+C:\Angular15\Angular15-main\AngularQuiz\Solutions\src\assets
+AngularQuiz:
+enum is not used as a type in TypeScript
+What is enum in TypeScript?
+
+
+
+Enum is just not a type
+That you set
+Yes data structure
+It IS in Typescript though
+https://www.typescriptlang.org/docs/handbook/enums.html
+Enum is enum - enumerated values
+
+
+JavaScript do not have enums.
+TypeScript have enums.
+
+
+Any other data structure in TypeScript but not in JavaScript?
+
+TypeScript has enums but JavaScript does not. Also tuples, interfaces, and generics
+And “typed arrays” can be a data structure. Usually arrays are dynamic, including in data type, but in TypeScript you can require them to be one type throughout the array
+Tuple- array with fixed number of elements
+const person: [string, number] = ["Alice", 30];
+
+
+
+What data structures does TypeScript give you that javaScript doesn’t?
+generics
+interface
+enum
+tuples
+Typed arrays
+const person: [string, number] = ["Alice", 30];
+
+
+
+
+https://www.typescriptlang.org/docs/handbook/enums.html
+What are ambient and non-ambient enums?
+
+Ambient enums are used to define the shape of existing enum types from external JavaScript libraries or when you want to describe the structure of an enum without actually generating any JavaScript code for it. They are declared using the declare enum syntax.
+
+
+
+                token: 'fake-jwt-token'
+				
+				
+				
+export class JwtInterceptor implements HttpInterceptor {
+
+
+Angular jwt-token
+
+JSON Web Token (JWT)
+
+
+
+https://blog.angular-university.io/angular-jwt/
+authentication provider such as for example Auth0
+
+
+
+
+What is the relationship between JSON Web Token (JWT) and Java EE Authentication and Authorization?
+Are they mutually exclusive ?
+
+If Java EE Authentication and Authorization is used, no need to use JSON Web Token (JWT)?
+
+
+
+https://jwt.io/
+
+
+
+
+
+or extra ?
+
+
+What is authorization in Java EE?
+Authentication and Authorization in Java EE
+
+It performs authentication and propagates the authenticated identity to the EJB container. The EJB container can then use this authenticated identity to make authorization choices, if necessary.
+
+
+
+jwtloginauth\src\app\
+app.module.ts
+    providers: [
+        { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
+
+this property multi is required and must be set to true because it is a multiprovider token.
+
+
+
+
+
+do we actually need that Object.assign(vehicle,v)?
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+I mean why set its value to v before setting it to undefined.
+
+
+
+
+regexlib.com
+^((\d{5}-\d{4})|(\d{5})|([AaBbCcEeGgHhJjKkLlMmNnPpRrSsTtVvXxYy]\d[A-Za-z]\s?\d[A-Za-z]\d))$
+Description
+
+https://regexlib.com/Search.aspx?k=Postal+Code&c=-1&m=-1&ps=20
+
+
+
+jwtloginauth\src\app\login
+login.component.ts
+        this.authenticationService.login(this.f.username.value, this.f.password.value)
+            .pipe(first())
+			
+Why first() is needed?
+
+Emits first value https://rxjs.dev/api/operators/first
+
+
+
+
+
+
+Here is a translate tutorial: https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-angular-app-with-ngx-translate
+
+
+
+
+
+Authentication:
+
+Java EE offers several ways to handle authentication:
+
+Form-based authentication: A common approach where users provide credentials (username/password) through a form, and the server validates them. This is often used for web applications.
+
+HTTP Basic/Digest Authentication: These are HTTP-level authentication mechanisms provided by the servlet container or application server.
+
+Custom Authentication Mechanisms: You can also implement custom authentication mechanisms using JAAS or other methods.
+
+Authorization:
+
+Java EE provides role-based access control (RBAC) through declarative annotations or XML configuration. You can specify which roles have access to specific resources and methods in your application.
+
+If your authorization requirements can be satisfied using Java EE's RBAC features, you may not need JWT for authorization. However, if you have more complex authorization requirements, JWT can be used to include additional claims in the token and implement custom authorization logic on the server-side.
+
+Use Cases for JWT:
+
+While Java EE provides robust authentication and authorization mechanisms, JWTs can be beneficial in certain scenarios:
+
+Stateless Authentication: If you need to implement stateless authentication across microservices or different platforms, JWTs can be a good choice because they carry authentication information in a self-contained token.
+
+Single Sign-On (SSO): JWTs can be used in conjunction with identity providers to implement single sign-on across multiple applications.
+
+Token-Based API Security: If you're building a RESTful API or a distributed system, JWTs can be used to secure API endpoints and convey user roles/permissions.
+
+Cross-Domain Authentication: JWTs can help with authentication when you have multiple domains or services that need to trust the authentication provided by a central authority.
+

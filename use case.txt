@@ -1,0 +1,54 @@
+Hi Aletha,
+How to implement my use case in Angular?
+Are there any sample codes?
+
+My use case is user input forms.
+A user has:
+1. Name
+First name
+Last name
+
+2. Address
+Address Line 1
+Address Line 2 (optional)
+City
+Province and Territory / State (e.g. Alberta, British Columbia, ...)
+Country (Canada (appear at the top of the choices), UK, USA,  ...)
+Postal Code / Zip Code
+
+
+Select the Country field first from a drop down selection.
+The Postal Code / Zip Code form field has input validation.
+Postal codes in Canada are a six-character string consisting of three letters and three digits.
+Zip codes in US are 5 digits.
+The Postal Code / Zip Code are validated before calling the backend to get the Address Line 1 and 2, City, Province and Territory fields if valid; otherwise return an error
+
+3. Telephone number 
+Country code
+Area code
+Remaining digits
+
+4. Email
+
+
+The Name, Address, Telephone number and Email are separate screens.
+
+The forms are to:
+- register user
+- edit user
+
+
+Form Components will be reusable.
+
+
+
+
+
+
+
+
+Create four components, name, email, phone number, address
+Address: if Canada, use Canadian postal code regular expression; if US use US one
+Have a next button be a link to the next component
+
+
